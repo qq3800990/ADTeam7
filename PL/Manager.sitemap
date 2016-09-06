@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+    <siteMapNode url="~/Manager/InventoryAdjustmentList.aspx" title="Stationery Requisition Information"  description="Stationery Requisition Information">
+        <siteMapNode url="~/Manager/ChangeCategory.aspx" title="Change Stationery Requisition"  description="Change Stationery Requisition" />
+ 
+    </siteMapNode>
+</siteMap>

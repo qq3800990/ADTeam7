@@ -1,0 +1,86 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Manager.master.cs" Inherits="PL.Master_page.Manager" %>
+
+<!DOCTYPE html>
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .auto-style1 {
+            width: 100%;
+        }
+        .auto-style3 {
+            width: 137px;
+        }
+        .auto-style4 {
+            width: 963px;
+        }
+        .auto-style5 {
+            width: 963px;
+            height: 156px;
+        }
+        .auto-style6 {
+            width: 137px;
+            height: 156px;
+        }
+        .auto-style7 {
+            height: 156px;
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+
+            
+            
+          
+            <table class="auto-style1">
+                <tr>
+                    <td class="auto-style4">
+                        <asp:Image ID="Image1" runat="server" />
+                        <asp:Label ID="Label1" runat="server" Text="Label"></asp:Label>
+                    </td>
+                    <td class="auto-style3">&nbsp;</td>
+                    <td>
+                        <asp:Label ID="Label2" runat="server" Text="Label"></asp:Label>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="auto-style5"></td>
+                    <td class="auto-style6"></td>
+                    <td class="auto-style7">
+                        <asp:SiteMapPath ID="SiteMapPath1" runat="server">
+                        </asp:SiteMapPath>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="auto-style4">
+                        <asp:Menu ID="Menu1" runat="server"  Staticdisplaylevels ="2"  Orientation="Horizontal">
+                        </asp:Menu>
+                    </td>
+                    <td class="auto-style3">&nbsp;</td>
+                    <td>&nbsp;</td>
+                </tr>
+            </table>
+
+            
+            
+          
+        </div>
+
+
+
+
+    <div>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+</body>
+</html>
+
